@@ -1,0 +1,10 @@
+{
+  "css.validate": false, // Disable css built-in lint
+  "stylelint.enable": true, // Enable sytlelint
+  "files.exclude": {
+    ".next": true,
+    "build": true,
+    "dist": true,
+    "node_modules": true
+  }
+}

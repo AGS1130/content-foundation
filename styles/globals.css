@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Custom Styles */
+@import 'custom-styles/utility-patterns.css';
+@import 'custom-styles/range-slider.css';
+@import 'custom-styles/toggle-switch.css';
+@import 'custom-styles/theme.css';
+
+@import 'tailwindcss/utilities';
+
+@layer base {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+@import 'custom-styles/aos.css';
